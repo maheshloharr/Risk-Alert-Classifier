@@ -23,7 +23,7 @@ st.markdown("""
 
 
 MODEL_PATH = "Model/model.joblib"
-SCHEMA_PATH = "Outputs/input_schema.json"
+SCHEMA_PATH = "Output/input_schema.json"
 
 @st.cache_resource
 def load_model():
